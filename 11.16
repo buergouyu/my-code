@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+//int main()//(与)按二进制位与,,(或)同理，有1出1
+{
+	//int a = 3;    //0000000000000000000000000000011
+	//int b = 5;    //0000000000000000000000000000101
+	//int c = a & b;//0000000000000000000000000000001（两个为1才是1）
+	//printf("%d\n", c);
+
+	//int a = 3;
+	//int b = 5;
+	//int c = a ^ b;//异或（相同为0相异为1）
+	//printf("%d\n", c);//6
+	//return 0;
+}
+
+
+
+
+
+
+int main()
+{
+int a = 16;//只能作用于整数
+//10000
+int b = a >> 2;//右移除n的2次方，左移乘n的2次方。
+
+移动的是二进制位00100
+printf("%d\n", b);
+return 0;
+}
+this is content of my writed code to day.
+I'm not lazy......heihei
